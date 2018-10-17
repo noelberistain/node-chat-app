@@ -4,9 +4,9 @@ var generateMessage = function (from, text) {
         text,
         createdAt: new Date().getTime()
     };
-}
+};
 
-var generateLocationMessage = (from, latitude, longitude) => {
+var generateLocationMessage = function (from, latitude, longitude) {
     return {
         from,
         from,
