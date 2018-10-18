@@ -18,13 +18,16 @@
 
     <section class="chat__main">
         <ol id="messages" class="chat__messages"></ol>
-        <div class="chat__footer">
+
+        <section class="chat__footer">
             <form id="message-form">
                 <input name="message" type="text" placeholder="Message" autofocus autocomplete="off" />
                 <button>Send</button>
             </form>
             <button id="send-location">Send Location</button>
-        </div>
+        </section>
+    </section>
+
         <script id="message-template" type="text/template">
             <li class="message">
                 <section class="message__title">
@@ -36,6 +39,7 @@
                 </section>
             </li>
         </script>
+
         <script id="location-message-template" type="text/template">
             <li class="message">
                 <section class="message__title">
@@ -44,12 +48,11 @@
                 </section>
                 <section class="message__body">
                     <p>
-                        <a href={{url}} target="_blank ">My current location</a>
+                    <a href={{url}} target="_blank ">My current location</a>
                     </p>
                 </section>
             </li>
         </script>
-    </section>
 
 
     <script src="/socket.io/socket.io.js "></script>
