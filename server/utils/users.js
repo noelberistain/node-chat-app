@@ -1,8 +1,8 @@
-[{
-    id: '/#12hjwjhwfcydg',
-    name: 'Andrew',
-    room: 'The Office Fans'
-}]
+// [{
+//     id: '/#12hjwjhwfcydg',
+//     name: 'Andrew',
+//     room: 'The Office Fans'
+// }]
 
 class Users {
     constructor() {
